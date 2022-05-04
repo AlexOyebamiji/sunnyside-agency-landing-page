@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  background-image: url(./images/mobile/image-header.jpg);
+  background-image: url(/images/mobile/image-header.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -337,7 +337,7 @@ footer h1 {
 
 @media screen and (min-width: 600px) {
   header {
-    background-image: url(./images/desktop/image-header.jpg);
+    background-image: url(/images/desktop/image-header.jpg);
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
@@ -373,6 +373,10 @@ footer h1 {
     align-content: center;
     padding: 0px 0px;
     height: auto;
+  }
+
+  .transform-section h1 {
+    margin: 0px 0px;
   }
 
   .transform-section p,
