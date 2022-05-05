@@ -361,6 +361,10 @@ footer h1 {
     display: none;
   }
 
+  .display-modal {
+    display: unset;
+  }
+
   .modal {
     position: unset;
     width: unset;
