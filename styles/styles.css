@@ -35,6 +35,10 @@ nav {
   justify-content: space-between;
 }
 
+.display-modal {
+  display: none;
+}
+
 .modal {
   position: absolute;
   text-align: center;
@@ -42,7 +46,8 @@ nav {
   height: 200px;
   left: 50%;
   transform: translate(-50%, 0);
-  margin-top: 350px;
+  margin-top: 410px;
+  padding: 50px 0px;
   background-color: var(--white);
 }
 
@@ -350,6 +355,46 @@ footer h1 {
 
   .header-text > div {
     padding-top: 50px;
+  }
+
+  .ham {
+    display: none;
+  }
+
+  .modal {
+    position: unset;
+    width: unset;
+    height: unset;
+    left: unset;
+    transform: unset;
+    margin-top: unset;
+    background-color: unset;
+  }
+
+  .modal ul {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .modal a {
+    color: var(--white);
+    font-family: "Barlow", sans-serif;
+    font-size: 12px;
+  }
+
+  .responsive-btn {
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    margin-top: -10px;
+    background-color: var(--white);
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .responsive-btn:hover {
+    color: var(--white);
+    background-color: lightblue;
   }
 
   .grid-mode {
